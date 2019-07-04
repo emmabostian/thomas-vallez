@@ -1,14 +1,55 @@
 //* FONT FAMILY *//
 @font-face {
   font-family: "Anderson Grotesk";
-  src: url("../../fonts/AndersonGrotesk-Bold.otf") format("otf");
-  font-weight: normal;
-  font-style: normal;
+  src: url("./fonts/AndersonGrotesk.otf");
 }
 
-$font-family-regular: "Anderson Grotesk";
+@font-face {
+  font-family: "Anderson Grotesk Bold";
+  src: url("./fonts/AndersonGrotesk-Bold.otf");
+}
 
+@font-face {
+  font-family: "Anderson Grotesk Bold Oblique";
+  src: url("./fonts/AndersonGrotesk-BoldOblique.otf");
+}
+
+@font-face {
+  font-family: "Anderson Grotesk Light";
+  src: url("./fonts/AndersonGrotesk-Light.otf");
+}
+
+@font-face {
+  font-family: "Anderson Grotesk Light Oblique";
+  src: url("./fonts/AndersonGrotesk-LightOblique.otf");
+}
+
+@font-face {
+  font-family: "Anderson Grotesk Black";
+  src: url("./fonts/AndersonGrotesk-Black.otf");
+}
+
+@font-face {
+  font-family: "Anderson Grotesk Oblique";
+  src: url("./fonts/AndersonGrotesk-Oblique.otf");
+}
+
+@font-face {
+  font-family: "Anderson Grotesk Ultrabold";
+  src: url("./fonts/AndersonGrotesk-Ultrabold.otf");
+}
+
+@font-face {
+  font-family: "Anderson Grotesk UltraboldOblique";
+  src: url("./fonts/AndersonGrotesk-UltraboldOblique.otf");
+}
+
+h1,
+h3 {
+  font-family: "Anderson Grotesk";
+}
 //* TYPESCALE *//
+//* Perfect-Fourth */
 /* SCALED DOWN */
 $typescale-sm-3: 11px;
 $typescale-sm-2: 12px;
