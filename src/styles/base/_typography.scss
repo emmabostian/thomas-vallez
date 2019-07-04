@@ -1,0 +1,32 @@
+//* FONT FAMILY *//
+@font-face {
+  font-family: "Anderson Grotesk";
+  src: url("../../fonts/AndersonGrotesk-Bold.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+$font-family-regular: "Anderson Grotesk";
+
+//* TYPESCALE *//
+/* SCALED DOWN */
+$typescale-sm-3: 11px;
+$typescale-sm-2: 12px;
+$typescale-sm-1: 14px;
+
+/* BASE */
+$typescale-base: 16px;
+
+/* SCALED UP */
+$typescale-lg-1: 18px;
+$typescale-lg-2: 20px;
+$typescale-lg-3: 22px;
+$typescale-lg-4: 25px;
+$typescale-lg-5: 28px;
+$typescale-lg-6: 32px;
+$typescale-lg-7: 36px;
+$typescale-lg-8: 41px;
+$typescale-lg-9: 46px;
+$typescale-lg-10: 51px;
+$typescale-lg-11: 58px;
+$typescale-lg-12: 65px;
