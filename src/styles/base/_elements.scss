@@ -2,4 +2,9 @@
 
 body {
   font-size: $typescale-base;
+  font-family: "Anderson Grotesk";
+}
+
+.dark {
+  background-color: $main-dark;
 }
